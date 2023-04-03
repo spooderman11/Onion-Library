@@ -570,7 +570,7 @@ function lib:Window(Info)
             Info.Max = Info.Max or 100
             Info.Default = Info.Default or 0
             Info.Increment = Info.Increment or 1
-            Info.IncValue = "Bananas"
+            Info.IncValue = Info.IncValue or "Bananas"
             Info.Callback = Info.Callback or function() end
 
 
