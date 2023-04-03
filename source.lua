@@ -495,7 +495,7 @@ function lib:Window(Info)
             TGL_Title.Position = UDim2.new(0.0173893627, 0, 0.350752622, 0)
             TGL_Title.Size = UDim2.new(0, 333, 0, 14)
             TGL_Title.Font = Enum.Font.GothamBold
-            TGL_Title.Text = "Toggle"
+            TGL_Title.Text = Info.Name
             TGL_Title.TextColor3 = Color3.fromRGB(238, 238, 238)
             TGL_Title.TextScaled = true
             TGL_Title.TextSize = 14.000
